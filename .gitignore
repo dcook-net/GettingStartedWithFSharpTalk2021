@@ -3,3 +3,19 @@ obj/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
+.vscode/
+.idea/
+.vs/
+
+# Test Results
+TestResult.xml
+
+# Build Results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+packages/
+.nuget/
+project.lock.json
+.DS_Store
