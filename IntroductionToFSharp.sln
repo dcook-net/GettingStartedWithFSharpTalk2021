@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOrientedExamples", "ObjectOrientedExamples\ObjectOrientedExamples.csproj", "{94648657-F780-441D-BE46-CE5C33E02C54}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpSyntax", "FSharpSyntax\FSharpSyntax.fsproj", "{389D33D4-D8CD-4365-9160-8BF4760B2821}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests", "Tests\Tests.fsproj", "{D04CDCD0-75FF-4AFF-BA97-6BD491E5AAEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94648657-F780-441D-BE46-CE5C33E02C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94648657-F780-441D-BE46-CE5C33E02C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94648657-F780-441D-BE46-CE5C33E02C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94648657-F780-441D-BE46-CE5C33E02C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{389D33D4-D8CD-4365-9160-8BF4760B2821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389D33D4-D8CD-4365-9160-8BF4760B2821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389D33D4-D8CD-4365-9160-8BF4760B2821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389D33D4-D8CD-4365-9160-8BF4760B2821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D04CDCD0-75FF-4AFF-BA97-6BD491E5AAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04CDCD0-75FF-4AFF-BA97-6BD491E5AAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04CDCD0-75FF-4AFF-BA97-6BD491E5AAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04CDCD0-75FF-4AFF-BA97-6BD491E5AAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

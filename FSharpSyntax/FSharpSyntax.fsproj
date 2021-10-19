@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <WarnOn>3390;$(WarnOn)</WarnOn>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="LoanAmount.fs" />
+        <Compile Include="LoanTerm.fs" />
+        <Compile Include="Apr.fs" />
+        <Compile Include="ContactMethod.fs" />
+        <Compile Include="Maths.fs" />
+        <Compile Include="SafeString.fs" />
+        <Compile Include="ErrorHandling-AskTheCaller.fs" />
+        <Compile Include="ErrorHandling-CustomDU.fs" />
+        <Content Include="test.txt" />
+        <Compile Include="PartialApplication.fs" />
+        <Compile Include="DependencyInjection.fs" />
+        <Compile Include="FunctionalCodeYouAlreadyKnow.fs" />
+        <Compile Include="AndTypes.fs" />
+        <Compile Include="LoanCalculator.fs" />
+        <Compile Include="ModelingTheAbsenceOfDataWithoutNull.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Expecto" Version="9.0.4" />
+      <PackageReference Include="Expecto.FsCheck" Version="9.0.4" />
+      <PackageReference Include="Microsoft.VisualBasic" Version="10.3.0" />
+      <PackageReference Include="MongoDB.Driver" Version="2.13.1" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    </ItemGroup>
+
+</Project>
