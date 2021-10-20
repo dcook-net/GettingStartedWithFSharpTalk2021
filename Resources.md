@@ -48,7 +48,7 @@ Loads of Talks here: [https://channel9.msdn.com/Events/dotnetConf/Focus-on-FShar
 [F# From the Ground Up](https://www.udemy.com/course/fsharp-from-the-ground-up) - Kit Eason
 
 
-<br/>
+
 ## And if you are interested in Functional C#:<br/>
 [Functional Programming in C#](https://www.manning.com/books/functional-programming-in-c-sharp-second-edition) by Enrico Buonanno <br/>
 [Language Extensions](https://github.com/louthy/language-ext) A nuget package to bring some Functional Style tools to your C# code. <br/>
