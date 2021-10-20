@@ -35,7 +35,7 @@ let ross = { FirstName = "Ross"; Surname = "Nielson"
 
 let formatAddress addressLines =
     List.fold (fun acc elem -> acc + elem + ", ") String.Empty addressLines
-    |> (fun s -> s.Substring(0, s.Length - 2))
+    |> fun s -> s.Substring(0, s.Length - 2)
 
 let getContactDetails person =
     match person.ContactMethod with

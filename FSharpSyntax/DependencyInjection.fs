@@ -6,6 +6,17 @@ open MongoDB.Bson
 open MongoDB.Bson.Serialization.Attributes
 open MongoDB.Driver
 
+// NB: These examples talk to Mongo using the synchronous versions of the methods
+// This was deliberate, in order to keep the examples simple, and avoid talking about Computations Expressions,
+// which was out of scope for the talk.
+// You can talk to Mongo using async calls and F# supports async, obviously.
+// You can do this using one of 2 computation expressions:
+// - async, which does not start immediately
+// - task, which does start immediately
+
+// for a nice breakdown of the differences read this:
+// https://www.compositional-it.com/news-blog/task-vs-async/?utm_content=buffer73ca5&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer  
+
 [<CLIMutable>]
 [<DataContract>]
 type Customer = {
@@ -71,7 +82,7 @@ module LooselyCoupledApplicationCode =
         
         let customer = getCustomerF dbConfig getCollectionF customerId 
         
-        printfn "Customer Name: {%s}; Email: {%s}" customer.Name customer.EmailAddress
+        printfn "Customer Name: %s; Email: %s" customer.Name customer.EmailAddress
         customer
         
 
@@ -81,6 +92,6 @@ module LooselyCoupledApplicationCodeWithPartialApplication =
         
         let customer = getCustomerF customerId
         
-        printfn "Customer Name: {%s}; Email: {%s}" customer.Name customer.EmailAddress
+        printfn "Customer Name: %s; Email: %s" customer.Name customer.EmailAddress
         
         customer
