@@ -1,6 +1,6 @@
 # Getting Started With F#
 
-[Slide Deck](GettingStartedWithFSharp.pptx), code samples, and [learning resources](Resources.md) for 'Getting Started With F#' talk for Peterborough .Net.
+[Slide Deck](GettingStartedWithFSharp.pptx), code samples, and [learning resources](https://github.com/dcook-net/FSharpLearningResources) for 'Getting Started With F#' talk for Peterborough .Net.
 
 Code Samples created using .Net 5.0, F# 5.0, and C# 9.0, so will require a 5.x.x SDK installed.
 Some tests require Mongo be be running.
